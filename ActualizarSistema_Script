@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#====================================================
+sudo echo "¡Oh por Dios! Tu sistema está a punto de evolucionar..."
+sleep 1
+echo "==> Proceso de evolución [10%] +---------- <=="
+sleep 0.1
+echo "==> Proceso de evolución [20%] ++--------- <=="
+sleep 0.1
+echo "==> Proceso de evolución [30%] +++-------- <=="
+sleep 0.1
+echo "==> Proceso de evolución [40%] ++++------- <=="
+sleep 0.1
+echo "==> Proceso de evolución [50%] +++++------ <=="
+sleep 0.1
+echo "==> Proceso de evolución [60%] ++++++----- <=="
+sleep 0.1
+echo "==> Proceso de evolución [70%] +++++++---- <=="
+sleep 0.1
+echo "==> Proceso de evolución [80%] ++++++++--- <=="
+sleep 0.1
+echo "==> Proceso de evolución [90%] +++++++++-- <=="
+sleep 0.1
+echo "==> Proceso de evolución [99%] ++++++++++- <=="
+sleep 1
+
+#====================================================
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get clean -y
+sudo apt-get autoclean -y
+sudo apt-get autoremove -y
+sleep 1
+
+#====================================================
+echo "==> Proceso de evolución [100%] +++++++++++ <=="
+sleep 3
+echo "¡Felicidades su sistema ha evolucionado!"
+sleep 5
+exit
+#====================================================
